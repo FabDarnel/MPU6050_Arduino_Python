@@ -39,33 +39,3 @@ while True:
     # dataLine = dataLine.split(', ') # Split the string, using comma, followed by a space, as a separator. Hence creating a list
 
     print(dataLine)
-
-
-
-
-
-
-    # print(readData)
-
-# # test if captureData works properly
-# def getData():
-#     readData = Data.readline()
-#     # print(type(readData))
-#     # print(readData) # print the read data from the MPU6050
-#     # dataLine = readData.strip() # remove the spacing characters from the readData which is of type <class 'bytes'>
-#     dataLine = readData.split()
-#     # print(dataLine)
-#     return readData, dataLine
-
-# readData, dataLine = getData()
-# for i in range (200):
-#     print(readData)
-
-    
-# # print(Data)
-# print("readData: \n", readData)
-    
-
-
-# # print("dataLine \n", dataLine)
-
