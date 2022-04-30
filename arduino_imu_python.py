@@ -4,9 +4,6 @@
 # source: https://github.com/jonasforlot/python-arduino/blob/main/Donn%C3%A9es%20s%C3%A9rie%20acc%C3%A9l%C3%A9rom%C3%A8tre%20Arduino/accelerometre_benjamin.py
 import serial 
 import serial.tools.list_ports  #communicates with the serial ports
-import matplotlib.pyplot as plt
-from matplotlib import animation as animation
-import time
 
 acc_x = []    # empty list for acc in x - axis m/s^2
 acc_y = []    # empty list for acc in y - axis m/s^2
